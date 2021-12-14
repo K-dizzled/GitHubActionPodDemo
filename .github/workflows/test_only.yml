@@ -22,3 +22,5 @@ jobs:
       with:
         additional_build_params: -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.0'
         lint: false
+    - name: Test xcodegen 
+      uses: xavierLowmiller/xcodegen-action@1.0.0
